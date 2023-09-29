@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Leckerli One' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<style>
+    .nova-heading {
+        font-family: 'Leckerli One';
+        font-size: 30px;
+    }
+    .links{
+        cursor: pointer;
+    }
+    </style>
+<body>
+    <div class="container">
+
+        <div class="row mt-5">
+            <div class="col-5 nova-heading  ">
+                <h1 class="">Nova</h1>
+            </div>
+            <div class="col-7 text-center links  d-flex justify-content-around ">
+                <h6 class="mt-md-3"routerLink="/Home">Home</h6>
+                <h6 class="mt-md-3"routerLink="/About">About</h6>
+               <h6 class="mt-md-3">Blog</h6>
+               <h6 class="mt-md-3">Services</h6>
+               <h6 class="mt-md-3"routerLink="/Resume">Resume</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<router-outlet></router-outlet>
